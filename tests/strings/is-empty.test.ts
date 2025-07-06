@@ -1,7 +1,7 @@
-import { isEmpty } from 'strings';
+import isEmptyString from 'strings/is-empty-string';
 
-describe('isEmpty', () => {
+describe('isEmptyString', () => {
   it('should return true for empty value', () => {
-    expect(isEmpty('')).toBe(true);
+    expect(isEmptyString('')).toBe(true);
   });
 });
