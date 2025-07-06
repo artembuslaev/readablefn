@@ -1,4 +1,4 @@
-import { isNotNumber } from 'numbers';
+import isNotNumber from 'numbers/is-not-number';
 
 describe('isNotNumber', () => {
   it('should return false for number value', () => {

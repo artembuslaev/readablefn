@@ -1,4 +1,4 @@
-import { isNumber } from 'numbers';
+import isNumber from 'numbers/is-number';
 
 describe('isNumber', () => {
   it('should return false for empty string', () => {
