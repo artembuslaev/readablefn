@@ -1,9 +1,9 @@
 import { isNotUndefined, isUndefined } from '../base';
-import { isNotNumber } from './is-not-number';
+import isNotNumber from './is-not-number';
 
 type Interval = { start?: number; end?: number };
 
-export function inRange(
+export default function (
   value: number,
   interval: Interval,
   { includeBorders }: { includeBorders?: boolean } = {},

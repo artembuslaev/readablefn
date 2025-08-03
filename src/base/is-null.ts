@@ -1,5 +1,5 @@
-import { isUndefined } from './is-undefined';
+import isUndefined from './is-undefined';
 
-export function isNull(value: unknown): value is (null | undefined) {
+export default function (value: unknown): value is (null | undefined) {
   return isUndefined(value) || value === null;
 }

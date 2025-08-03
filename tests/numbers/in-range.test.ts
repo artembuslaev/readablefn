@@ -1,4 +1,4 @@
-import { inRange } from 'numbers';
+import inRange from 'numbers/in-range';
 
 describe('inRange', () => {
   it('should return true for value without range', () => {
