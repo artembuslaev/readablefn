@@ -3,7 +3,7 @@ import isNotNumber from './is-not-number';
 
 type Interval = { start?: number; end?: number };
 
-export default function(
+export default function (
   value: number,
   interval: Interval,
   { includeBorders }: { includeBorders?: boolean } = {},
