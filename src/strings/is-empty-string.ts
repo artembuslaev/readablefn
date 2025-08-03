@@ -1,5 +1,5 @@
 import { isNull } from '../base';
 
-export function isEmpty(value: unknown): boolean {
+export default function(value: unknown): boolean {
   return isNull(value) || value === '';
 }
